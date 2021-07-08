@@ -69,7 +69,7 @@ class Scene2 extends Phaser.Scene {
 
         this.score = 0;
         
-        this.highScoreLabel = this.add.bitmapText(10,10,"pixelFont", "HISGHSCORE " + highScoreFormatted, 40);
+        this.highScoreLabel = this.add.bitmapText(10,10,"pixelFont", "HIGHSCORE " + highScoreFormatted, 40);
         this.scoreLabel = this.add.bitmapText(10,65,"pixelFont", "SCORE 000000", 50);
 
         // powerup ammo text
